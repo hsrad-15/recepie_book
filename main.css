@@ -1,0 +1,208 @@
+
+/*Dancing Script*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Miniver&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&display=swap');
+/*Playwrite AU SA*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+/*Maven Pro*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+:root
+{
+    /*colors*/
+    --beige-color:#fff0d1;
+    --light-brown-color:#795757;
+    --medium-brown-color:#664343;
+    --dark-brown-color:#3b3030 ;
+
+}
+
+.button-container
+{
+    margin: 5%;
+    text-align: center;
+}
+
+.image-container
+{
+    text-align: center;
+}
+
+
+.go-button
+{
+    display: inline-block;
+    padding: 1%;
+    font-size: 120%;
+    color: var(--beige-color);
+    background-color: var(--dark-brown-color);
+    cursor: pointer;
+    text-decoration: none;
+    border-style:double;
+
+}
+
+.go-button:hover{
+    color: var(--dark-brown-color);
+    background-color:var(--beige-color) ;
+}
+
+.back-button
+{
+    display: inline-block;
+    padding: 1%;
+    font-size: 120%;
+    color: var(--beige-color);
+    background-color: var(--dark-brown-color);
+    cursor: pointer;
+    text-decoration: none;
+    border-style:double;
+  
+}
+
+.back-button:hover
+{
+    color: var(--dark-brown-color);
+    background-color:var(--beige-color) ;
+}
+
+.back-button-container
+{
+    margin: 3%;
+    text-align: start;
+}
+
+
+body
+{
+    background-color: var(--light-brown-color);
+}
+
+.heading-main
+{
+    text-align: center;
+    text-decoration: none;
+    font-family: "Dancing Script";
+    color: white;
+    font-size: 500%;
+
+}
+
+.para
+{
+    text-align: center;
+    justify-content: left;
+    font-family: "Playwrite AU SA";
+    padding: 0 5 5 5;
+    font-size: 130%;
+
+
+}
+
+.sub-heading
+{
+    text-align: center;
+    font-family:"Maven Pro";
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 300%;
+    color: var(--beige-color);
+}
+
+.caption
+{
+    color: var(--beige-color);
+    font-size: 150%;
+    text-align: center;
+}
+
+.open-container
+{
+    margin: 5%;
+    text-align: center;
+}
+
+
+.open-menu
+{
+    display: inline-block;
+    padding: 1%;
+    font-size: 120%;
+    color: var(--beige-color);
+    background-color: var(--dark-brown-color);
+    cursor: pointer;
+    text-decoration: none;
+    border-style:double;
+}
+
+.open-menu:hover
+{
+    color: var(--dark-brown-color);
+    background-color:var(--beige-color) ;
+}
+
+.menu-body
+{
+    background-color: var(--medium-brown-color);
+}
+
+.menu-image-container
+{
+    text-align: center;
+
+}
+
+.menu-body .para
+{
+    text-align: center;
+    justify-content: left;
+    font-family: "Playwrite AU SA";
+    padding: 0 5 5 5;
+    font-size: 180%
+}
+
+.drinks-items
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 5%;
+    margin: 5%;
+}
+
+.juice-pic
+{
+    border-radius: 50%;
+    border-style: double;
+}
+
+.drinks-body
+{
+    background-color: var(--beige-color);
+}
+.drinks-body .heading-main
+{
+    font-size: 400%;
+    font-family:"Maven Pro";
+    color: var(--light-brown-color);
+    padding: 0 5 0 0;
+}
+
+.juice-name
+{
+    font-family: "Dancing script";
+    font-size: 250%;
+    color: var(--dark-brown-color) ;
+}
+
+.sub-topic, .sub-topic-2
+{
+    font-family: "Playwrite AU SA";
+    color: var(--medium-brown-color);
+    font-size: 200%;
+}
+
+.juice-ingredients, .preparation-list
+{
+    font-family: 'Segoe UI';
+    font-size: 150%;
+
+}
